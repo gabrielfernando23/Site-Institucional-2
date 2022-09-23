@@ -1,5 +1,5 @@
 .caixa_formulario {
-    margin-top: 100px;
+    margin-top: 250px;
     background: white;
     width: 400px;
     height: 500px;
@@ -44,4 +44,7 @@
 .header ul #cadastro{
     font-weight: 1000;
     color: #32b9cd;
+}
+.formulario span {
+    margin-top: 10px;
 }

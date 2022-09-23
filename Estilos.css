@@ -5,6 +5,10 @@ body{
 }
 
 .header{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
     color: #32b9cd; 
     border-bottom: solid 3px #32b9cd;
     /* border: solid 3px green; */
@@ -40,13 +44,18 @@ a {
     color: white;
     text-decoration: none;
 }
+.behind{
+    height: 80px;
+    width: 100px;
+    background: black;
+}
 /* Banner */
 
 .banner{
     /* border: solid 3px pink; */
     color: white;
     padding: 40px 0;
-    height: 500px;
+    height: 600px;
     background-image: url("assets/imgs/bg-jelly-fish-para_outras_pags.png   ");
     background-size: cover;
 }
@@ -104,7 +113,7 @@ a {
 .footer{
     display: flex;
     background-color: #32b9cd;
-    height: 150px;
+    height: 110px;
     color: white;
 }
 
